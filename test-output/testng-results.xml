@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-11-24T09:17:11 IST" name="SeleniumParallelSuite" finished-at="2026-11-24T09:17:19 IST" duration-ms="7647">
+    <groups>
+    </groups>
+    <test started-at="2026-11-24T09:17:11 IST" name="LoginTests" finished-at="2026-11-24T09:17:19 IST" duration-ms="7647">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@1d296da]" started-at="2026-11-24T09:17:11 IST" name="setup" finished-at="2026-11-24T09:17:17 IST" duration-ms="5578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@1d296da]" started-at="2026-11-24T09:17:11 IST" name="setup" finished-at="2026-11-24T09:17:17 IST" duration-ms="5725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validLogin()[pri:0, instance:tests.LoginTest@1d296da]" started-at="2026-11-24T09:17:17 IST" name="validLogin" finished-at="2026-11-24T09:17:18 IST" duration-ms="1143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method signature="InvalidLogin()[pri:0, instance:tests.LoginTest@1d296da]" started-at="2026-11-24T09:17:17 IST" name="InvalidLogin" finished-at="2026-11-24T09:17:18 IST" duration-ms="903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@1d296da]" started-at="2026-11-24T09:17:18 IST" name="tearDown" finished-at="2026-11-24T09:17:19 IST" duration-ms="875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@1d296da]" started-at="2026-11-24T09:17:18 IST" name="tearDown" finished-at="2026-11-24T09:17:19 IST" duration-ms="778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- LoginTests -->
+  </suite> <!-- SeleniumParallelSuite -->
+</testng-results>
