@@ -19,13 +19,13 @@ pipeline {
 
         stage('Build') {
             steps {
-                bat. 'mvn clean compile'
+                bat 'mvn clean compile'
             }
         }
 
         stage('Execute Tests') {
             steps {
-                 bat. 'mvn test -Dheadless=true'
+                 bat 'mvn test -Dheadless=true'
             }
         }
 
